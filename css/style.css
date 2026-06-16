@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #1e2729;
+  color: #dfe7e8;
+  line-height: 1.6;
+}
+
+body.claro {
+  background-color: #d6ecec;
+  color: #1e2729;
+}
+
+a {
+  color: #5bbfc9;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.topo {
+  background-color: #243033;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 15px 25px;
+  border-bottom: 2px solid #5bbfc9;
+}
+
+.logo {
+  color: #5bbfc9;
+  font-size: 22px;
+}
+
+.nav {
+  display: flex;
+  gap: 18px;
+}
+
+.nav a {
+  color: #dfe7e8;
+  font-weight: bold;
+}
+
+.ferramentas {
+  display: flex;
+  gap: 8px;
+}
+
+.btnFerr {
+  background-color: #5bbfc9;
+  color: #1e2729;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btnFerr:hover {
+  background-color: #7fd3dc;
+}
+
+main {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+.sectIntro {
+  background-color: #243033;
+  padding: 30px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+body.claro .sectIntro {
+  background-color: #dce6e6;
+}
+
+.sectIntro h2 {
+  color: #5bbfc9;
+  margin-bottom: 10px;
+}
+
+.tituloSect {
+  color: #5bbfc9;
+  margin: 30px 0 15px 0;
+  border-left: 4px solid #5bbfc9;
+  padding-left: 10px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background-color: #243033;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #35464a;
+}
+
+body.claro .card {
+  background-color: #dce6e6;
+  border: 1px solid #b8caca;
+}
+
+.card h3 {
+  color: #5bbfc9;
+  margin-bottom: 8px;
+}
+
+.card h3 span{
+  color: gray;
+  font-size: x-small;
+}
+
+.sectSobre {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  align-items: flex-start;
+}
+
+.fotoPerfil {
+  width: 200px;
+  border-radius: 8px;
+  border: 2px solid #5bbfc9;
+}
+
+.textoSobre {
+  flex: 1;
+  min-width: 250px;
+}
+.lista {
+  margin: 10px 0 20px 25px;
+}
+
+.lista li {
+  margin-bottom: 6px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  border: 1px solid #35464a;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #5bbfc9;
+  color: #1e2729;
+}
+
+body.claro th, body.claro td {
+  border: 1px solid #b8caca;
+}
+
+
+.formContato {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 450px;
+}
+
+.formContato label {
+  font-weight: bold;
+}
+
+.formContato input,
+.formContato textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #35464a;
+  background-color: #1e2729;
+  color: #dfe7e8;
+  font-family: inherit;
+}
+
+body.claro .formContato input,
+body.claro .formContato textarea {
+  background-color: #ffffff;
+  color: #1e2729;
+  border: 1px solid #b8caca;
+}
+
+.btnEnviar {
+  background-color: #5bbfc9;
+  color: #1e2729;
+  border: none;
+  padding: 12px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 150px;
+}
+
+.btnEnviar:hover {
+  background-color: #7fd3dc;
+}
+
+.sectReceita ul,
+.sectReceita ol {
+  margin: 10px 0 20px 25px;
+}
+
+.sectReceita li {
+  margin-bottom: 6px;
+}
+.rodape {
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  border-top: 1px solid #35464a;
+  color: #9fb0b2;
+  font-size: 14px;
+  background-color: #13191a;
+
+}
+
+body.claro .rodape {
+  background-color: #b8caca;
+  color: black;
+}
